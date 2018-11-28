@@ -14,7 +14,6 @@
 // available fonts. Drop the 'u8g2_' prefix when you add them here.
 #define U8G2_FONT_TABLE \
   U8G2_FONT_TABLE_ENTRY(font_6x10_tf) \
-  U8G2_FONT_TABLE_ENTRY(font_unifont_t_symbols) \
 
 #else
 //

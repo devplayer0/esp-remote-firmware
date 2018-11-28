@@ -45,7 +45,7 @@
 // the size of the store that you need.  This can be any multiple of 4kB up to
 // a maximum 256Kb.
 
-//#define LUA_FLASH_STORE 0x10000
+#define LUA_FLASH_STORE 0x10000
 
 
 // By default Lua executes the file init.lua at start up.  The following
@@ -55,7 +55,7 @@
 // The example provided executes the LFS module "_init" at startup or fails
 // through to the interactive prompt.
 
-//#define LUA_INIT_STRING "pcall(function() node.flashindex'_init'() end)"
+#define LUA_INIT_STRING "pcall(function() node.flashindex'_init'() end)"
 
 
 // NodeMCU supports two file systems: SPIFFS and FATFS, the first is available
@@ -72,7 +72,7 @@
 // gives the fastest start-up and imaging times.
 
 #define BUILD_SPIFFS
-//#define SPIFFS_FIXED_LOCATION        0x100000
+#define SPIFFS_FIXED_LOCATION        0x100000
 //#define SPIFFS_MAX_FILESYSTEM_SIZE    0x20000	
 //#define SPIFFS_SIZE_1M_BOUNDARY
 #define SPIFFS_CACHE 1          // Enable if you use you SPIFFS in R/W mode
@@ -90,7 +90,7 @@
 // The SHA1 and MD5 function are implemented in the ROM BIOS. The MD2 and SHA2
 // are by firmware code, and can be enabled if you need this functionality.
 
-//#define CLIENT_SSL_ENABLE
+#define CLIENT_SSL_ENABLE
 //#define MD2_ENABLE
 #define SHA2_ENABLE
 #define SSL_BUFFER_SIZE 5120

@@ -38,7 +38,7 @@
 //  U8G2_DISPLAY_TABLE_ENTRY(u8g2_Setup_ssd1327_i2c_seeed_96x96_f, ssd1327_i2c_seeed_96x96) \
 
 #define U8G2_DISPLAY_TABLE_I2C \
-  U8G2_DISPLAY_TABLE_ENTRY(u8g2_Setup_ssd1306_i2c_128x64_noname_f, ssd1306_i2c_128x64_noname) \
+  U8G2_DISPLAY_TABLE_ENTRY(u8g2_Setup_ssd1306_i2c_128x32_univision_f, ssd1306_i2c_128x32_univision) \
 
 #else
 
@@ -104,7 +104,6 @@
 //  U8G2_DISPLAY_TABLE_ENTRY(u8g2_Setup_uc1701_mini12864_f, uc1701_mini12864) \
 
 #define U8G2_DISPLAY_TABLE_SPI \
-  U8G2_DISPLAY_TABLE_ENTRY(u8g2_Setup_ssd1306_128x64_noname_f, ssd1306_128x64_noname) \
 
 #else
 
